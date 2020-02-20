@@ -16,7 +16,12 @@
             }
           ],
           "from": {
-            "key_code": "left_gui"
+            "key_code": "left_gui",
+            "modifiers": {
+                "optional": [
+                    "any"
+                ]
+            }
           },
           "to": [
             {
@@ -38,7 +43,12 @@
             }
           ],
           "from": {
-            "key_code": "left_alt"
+            "key_code": "left_alt",
+            "modifiers": {
+                "optional": [
+                    "any"
+                ]
+            }
           },
           "to": [
             {
