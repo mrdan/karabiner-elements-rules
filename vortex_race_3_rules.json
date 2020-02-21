@@ -1,0 +1,251 @@
+{
+  "rules": [
+    {
+      "description": "Vortex: Swap £ and #",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "left_alt"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Vortex: Media keys",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": "scroll_lock"
+          },
+          "to": [
+            {
+              "key_code": "mute"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": "pause"
+          },
+          "to": [
+            {
+              "key_code": "volume_decrement"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": 201
+          },
+          "to": [
+            {
+              "key_code": "volume_increment"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": 202
+          },
+          "to": [
+            {
+              "key_code": "rewind"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": 203
+          },
+          "to": [
+            {
+              "key_code": "play_or_pause"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": 204
+          },
+          "to": [
+            {
+              "key_code": "fastforward"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": 233
+          },
+          "to": [
+            {
+              "key_code": "pause"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "identifiers": [
+                {
+                  "product_id": 402,
+                  "vendor_id": 1241
+                }
+              ],
+              "type": "device_if"
+            }
+          ],
+          "from": {
+            "key_code": 234
+          },
+          "to": [
+            {
+              "key_code": "scroll_lock"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ],
+  "title": "Vortex Race 3 with Macbook Pro"
+}
